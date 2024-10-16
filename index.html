@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azamon - Loja online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo Shopping Online Laranja.png" type="image/png">
+</head>
+<body>
+    <div class="shape square" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+    <div class="shape circle" style="top: 20%; left: 30%; animation-delay: 1s;"></div>
+    <div class="shape triangle" style="top: 30%; left: 50%; animation-delay: 2s;"></div>
+    <div class="shape square" style="top: 40%; left: 70%; animation-delay: 3s;"></div>
+    <div class="shape circle" style="top: 50%; left: 20%; animation-delay: 4s;"></div>
+    <div class="shape triangle" style="top: 60%; left: 80%; animation-delay: 5s;"></div>
+    <div class="shape square" style="top: 70%; left: 30%; animation-delay: 6s;"></div>
+    <div class="shape circle" style="top: 80%; left: 60%; animation-delay: 7s;"></div>
+    <div class="shape triangle" style="top: 20%; left: 80%; animation-delay: 8s;"></div>
+    <div class="shape square" style="top: 80%; left: 10%; animation-delay: 9s;"></div>
+    
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <form id="cadastroForm">
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="dataNascimento">Data de Nascimento</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmSenha">Confirmar Senha</label>
+                <input type="password" id="confirmSenha" name="confirmSenha" placeholder="Confirme sua senha" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="mensagemSucesso" class="mensagem-sucesso"></p>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1ywyMa-Xk4w?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="info-section transparent">
+        <h2>Quem Somos Nós</h2>
+        <button class="toggle-info">▼</button>
+        <div class="more-info" style="display: none;">
+            <p>A Azamon é uma loja online dedicada a oferecer produtos de qualidade com preços competitivos. Nossa missão é garantir a satisfação do cliente através de um atendimento excepcional e uma experiência de compra conveniente.</p>
+        </div>
+    </div>
+
+    <div class="info-section transparent">
+        <h2>Chat 24 horas</h2>
+        <button class="toggle-info">▼</button>
+        <div class="more-info" style="display: none;">
+            <p>Nosso suporte está disponível 24 horas por dia, 7 dias por semana. Estamos sempre prontos para ajudar com qualquer dúvida ou problema que você possa ter.</p>
+        </div>
+    </div>
+
+    <div class="info-section transparent">
+        <h2>A Azamon é confiável</h2>
+        <button class="toggle-info">▼</button>
+        <div class="more-info" style="display: none;">
+            <p>Com anos de experiência no mercado, a Azamon se destaca pela transparência e segurança nas transações. Utilizamos as melhores práticas para proteger suas informações e garantir uma experiência de compra segura.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+          
+
+
+
